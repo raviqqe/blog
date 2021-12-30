@@ -1,0 +1,11 @@
+name: main
+on:
+  - push
+jobs:
+  spell_check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: streetsidesoftware/cspell-action@main
+        with:
+          files: "**/*.md"
