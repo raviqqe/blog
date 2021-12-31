@@ -16,10 +16,14 @@ Just as a side note, I wouldn't say Go 1 had no generics as a programming langua
 
 Another notable point to consider for building a programming language is developers' intelligence.
 
+In "Hackers and Painters", Paul Graham states that Lisp is.
+
+> WIP
+
 ## Conclusion
 
 Pen took a path of evolution different from other languagges including Go 2 for the following reasons:
 
 - It's focused on software engineering rather than programming. The longer time passes, the more important simplicity is.
 - Generics has a tradeoff between developer experience and language complexity. Since Go 1 has been successfully used in a lot of applications without it, I would like to continue experimenting the path.
-- My brain is not comparable with other developers, at least, like the ones described in "Hackers and Painters" by Paul Graham.
+- My brain is not comparable with other developers.
